@@ -1,28 +1,31 @@
-Tic Tac Toe Game 🎮
-Introduction
-This is a simple yet engaging Tic Tac Toe game built in Java. The game is designed for two players, with an intuitive command-line interface and smooth gameplay mechanics. A great way to relive the classic game!
-Features--
-2-player mode: Compete with a friend.
-Fully functional game logic to detect wins, losses, and draws.
-Clean and easy-to-understand Java code.
-Command-line interface for simple interaction.
-Game board is dynamically updated after every move.
+🎮 Tic-Tac-Toe Game ❌⭕
+A simple Tic-Tac-Toe game implemented in Java, allowing players to play against each other or a computer.
 
-How to Play--
-Run the program using your favorite IDE or a terminal.
-Players take turns to enter their move by specifying the position on the 3x3 board (e.g., top-left, middle-right).
-The game ends when either player wins or the board is full (resulting in a draw).
+📌 Features
+✅ Play against another player or the computer (AI mode if implemented)
+✅ 3x3 grid for classic Tic-Tac-Toe gameplay
+✅ Turn-based input system
+✅ Displays the board after every move
+✅ Declares a winner or detects a draw
 
-Requirements--
-Java Development Kit (JDK) version 8 or higher.
-A Java-compatible IDE (e.g., IntelliJ IDEA, Eclipse) or terminal to compile and run the game.
+🔧 Installation & Setup
+Clone the repository:
+git clone https://github.com/Sn01eha/Tick_Tac_Toe_Game.git
+cd Tick_Tac_Toe_Game
 
-How to Run the Game Using Eclipse--
-Open Eclipse on your computer.
-Go to File > Import, and select Existing Projects into Workspace.
-Browse to the folder containing your Tic Tac Toe project and click Finish.
-In the Package Explorer, locate the TicTacToe.java file and right-click on it.
-Select Run As > Java Application to start the game.
+Compile the Java file:
+javac ticTacToeGame.java
 
-Credits--
-This project was created by Sneha as a fun exercise in Java programming
+Run the game:
+java ticTacToeGame
+
+🎯 How to Play
+The game is played on a 3x3 grid.
+Players take turns choosing a position (1-9) to place X or O.
+The first player to get three in a row (horizontally, vertically, or diagonally) wins.
+If all 9 spaces are filled and no player has won, the game ends in a draw.
+🚀 Future Enhancements (Optional)
+🔹 Add a GUI using Java Swing or JavaFX
+🔹 Implement AI opponent with different difficulty levels
+🔹 Allow network-based multiplayer mode
+🔹 Add a scoreboard to track wins and losses
